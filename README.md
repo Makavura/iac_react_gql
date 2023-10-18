@@ -46,4 +46,8 @@ Local screenshots attached below:
 
 UI:
 
+![Screenshot from 2023-10-18 22-35-54](https://github.com/Makavura/iac_react_gql/assets/39646663/99a46862-e526-4e82-8a71-c627678b9ceb)
 
+![Screenshot from 2023-10-18 22-36-10](https://github.com/Makavura/iac_react_gql/assets/39646663/22734ef5-0fec-4f5e-9545-7e4cc9ec2bec)
+
+![Screenshot from 2023-10-18 22-38-20](https://github.com/Makavura/iac_react_gql/assets/39646663/3b767600-556a-4256-9055-132677627d37)
