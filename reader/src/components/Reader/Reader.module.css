@@ -1,0 +1,87 @@
+.wrapper {
+  display: flex;
+  max-width: 70vw;
+  border-radius: 5px;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.titleBar {
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.close {
+  margin-top: 10px;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "Cutive Mono", monospace;
+}
+
+.back {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.forward {
+  display: block;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.pages {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.16), 0 3px 8px rgba(0, 0, 0, 0.23);
+}
+
+.page {
+  padding: 10px;
+  font-size: 1em;
+  min-width: 30vw;
+  min-height: 70vh;
+  font-family: "Cutive Mono", monospace;
+}
+
+.page:nth-child(1) {
+  border-right: 1px solid #000;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 85%,
+    rgba(239, 239, 239, 0.75) 100%
+  );
+}
+
+.page:nth-child(2) {
+  background: linear-gradient(
+    to right,
+    rgba(239, 239, 239, 1) 0%,
+    rgba(247, 247, 247, 0.7) 10%,
+    rgba(248, 248, 248, 0.25) 25%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.disabled {
+  pointer-events: none;
+  color: darkgray;
+}

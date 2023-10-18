@@ -1,0 +1,8 @@
+.token {
+  fill: black;
+  font-size: 3em;
+  color: black;
+  stroke: black;
+  stroke-width: 2;
+  font-family: "Cutive Mono", monospace;
+}
