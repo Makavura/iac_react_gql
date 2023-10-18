@@ -1,0 +1,13 @@
+# ./.dockerignore
+
+!package.json
+!index.ts
+!src
+!resources
+
+node_modules
+.terraform
+Dockerfile
+README.md
+dist
+.git

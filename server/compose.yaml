@@ -1,0 +1,11 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+      - 4000:4000
+    networks:
+      - public
+      - private

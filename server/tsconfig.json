@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "target": "es2017",
+    "module": "esnext",
+    "rootDirs": ["src"],
+    "esModuleInterop": true,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true,
+    "moduleResolution": "node"
+  }
+}
